@@ -68,296 +68,322 @@
             // btn_A
             // 
             btn_A.Cursor = Cursors.Hand;
-            btn_A.Location = new Point(399, 806);
-            btn_A.Margin = new Padding(7, 6, 7, 6);
+            btn_A.Location = new Point(211, 395);
+            btn_A.Margin = new Padding(4, 3, 4, 3);
             btn_A.Name = "btn_A";
-            btn_A.Size = new Size(87, 81);
+            btn_A.Size = new Size(47, 38);
             btn_A.TabIndex = 0;
             btn_A.Text = "A";
             btn_A.UseVisualStyleBackColor = true;
+            btn_A.Click += btn_A_Click;
             // 
             // btn_B
             // 
             btn_B.Cursor = Cursors.Hand;
-            btn_B.Location = new Point(498, 806);
-            btn_B.Margin = new Padding(7, 6, 7, 6);
+            btn_B.Location = new Point(264, 395);
+            btn_B.Margin = new Padding(4, 3, 4, 3);
             btn_B.Name = "btn_B";
-            btn_B.Size = new Size(87, 81);
+            btn_B.Size = new Size(47, 38);
             btn_B.TabIndex = 1;
             btn_B.Text = "B";
             btn_B.UseVisualStyleBackColor = true;
+            btn_B.Click += btn_B_Click;
             // 
             // btn_C
             // 
             btn_C.Cursor = Cursors.Hand;
-            btn_C.Location = new Point(598, 806);
-            btn_C.Margin = new Padding(7, 6, 7, 6);
+            btn_C.Location = new Point(318, 395);
+            btn_C.Margin = new Padding(4, 3, 4, 3);
             btn_C.Name = "btn_C";
-            btn_C.Size = new Size(87, 81);
+            btn_C.Size = new Size(47, 38);
             btn_C.TabIndex = 2;
             btn_C.Text = "C";
             btn_C.UseVisualStyleBackColor = true;
+            btn_C.Click += btn_C_Click;
             // 
             // btn_Z
             // 
             btn_Z.Cursor = Cursors.Hand;
-            btn_Z.Location = new Point(1590, 902);
-            btn_Z.Margin = new Padding(7, 6, 7, 6);
+            btn_Z.Location = new Point(852, 440);
+            btn_Z.Margin = new Padding(4, 3, 4, 3);
             btn_Z.Name = "btn_Z";
-            btn_Z.Size = new Size(87, 81);
+            btn_Z.Size = new Size(47, 38);
             btn_Z.TabIndex = 3;
             btn_Z.Text = "Z";
             btn_Z.UseVisualStyleBackColor = true;
+            btn_Z.Click += btn_Z_Click;
             // 
             // btn_Y
             // 
             btn_Y.Cursor = Cursors.Hand;
-            btn_Y.Location = new Point(1491, 902);
-            btn_Y.Margin = new Padding(7, 6, 7, 6);
+            btn_Y.Location = new Point(799, 440);
+            btn_Y.Margin = new Padding(4, 3, 4, 3);
             btn_Y.Name = "btn_Y";
-            btn_Y.Size = new Size(87, 81);
+            btn_Y.Size = new Size(47, 38);
             btn_Y.TabIndex = 4;
             btn_Y.Text = "Y";
             btn_Y.UseVisualStyleBackColor = true;
+            btn_Y.Click += btn_Y_Click;
             // 
             // btn_X
             // 
             btn_X.Cursor = Cursors.Hand;
-            btn_X.Location = new Point(1391, 900);
-            btn_X.Margin = new Padding(7, 6, 7, 6);
+            btn_X.Location = new Point(745, 439);
+            btn_X.Margin = new Padding(4, 3, 4, 3);
             btn_X.Name = "btn_X";
-            btn_X.Size = new Size(87, 81);
+            btn_X.Size = new Size(47, 38);
             btn_X.TabIndex = 5;
             btn_X.Text = "X";
             btn_X.UseVisualStyleBackColor = true;
+            btn_X.Click += btn_X_Click;
             // 
             // btn_W
             // 
             btn_W.Cursor = Cursors.Hand;
-            btn_W.Location = new Point(1291, 900);
-            btn_W.Margin = new Padding(7, 6, 7, 6);
+            btn_W.Location = new Point(691, 439);
+            btn_W.Margin = new Padding(4, 3, 4, 3);
             btn_W.Name = "btn_W";
-            btn_W.Size = new Size(87, 81);
+            btn_W.Size = new Size(47, 38);
             btn_W.TabIndex = 6;
             btn_W.Text = "W";
             btn_W.UseVisualStyleBackColor = true;
+            btn_W.Click += btn_W_Click;
             // 
             // btn_V
             // 
             btn_V.Cursor = Cursors.Hand;
-            btn_V.Location = new Point(1192, 900);
-            btn_V.Margin = new Padding(7, 6, 7, 6);
+            btn_V.Location = new Point(638, 439);
+            btn_V.Margin = new Padding(4, 3, 4, 3);
             btn_V.Name = "btn_V";
-            btn_V.Size = new Size(87, 81);
+            btn_V.Size = new Size(47, 38);
             btn_V.TabIndex = 7;
             btn_V.Text = "V";
             btn_V.UseVisualStyleBackColor = true;
+            btn_V.Click += btn_V_Click;
             // 
             // btn_U
             // 
             btn_U.Cursor = Cursors.Hand;
-            btn_U.Location = new Point(1092, 900);
-            btn_U.Margin = new Padding(7, 6, 7, 6);
+            btn_U.Location = new Point(584, 439);
+            btn_U.Margin = new Padding(4, 3, 4, 3);
             btn_U.Name = "btn_U";
-            btn_U.Size = new Size(87, 81);
+            btn_U.Size = new Size(47, 38);
             btn_U.TabIndex = 8;
             btn_U.Text = "U";
             btn_U.UseVisualStyleBackColor = true;
+            btn_U.Click += btn_U_Click;
             // 
             // btn_T
             // 
             btn_T.Cursor = Cursors.Hand;
-            btn_T.Location = new Point(997, 902);
-            btn_T.Margin = new Padding(7, 6, 7, 6);
+            btn_T.Location = new Point(533, 440);
+            btn_T.Margin = new Padding(4, 3, 4, 3);
             btn_T.Name = "btn_T";
-            btn_T.Size = new Size(87, 81);
+            btn_T.Size = new Size(47, 38);
             btn_T.TabIndex = 9;
             btn_T.Text = "T";
             btn_T.UseVisualStyleBackColor = true;
+            btn_T.Click += btn_T_Click;
             // 
             // btn_S
             // 
             btn_S.Cursor = Cursors.Hand;
-            btn_S.Location = new Point(897, 902);
-            btn_S.Margin = new Padding(7, 6, 7, 6);
+            btn_S.Location = new Point(479, 440);
+            btn_S.Margin = new Padding(4, 3, 4, 3);
             btn_S.Name = "btn_S";
-            btn_S.Size = new Size(87, 81);
+            btn_S.Size = new Size(47, 38);
             btn_S.TabIndex = 10;
             btn_S.Text = "S";
             btn_S.UseVisualStyleBackColor = true;
+            btn_S.Click += btn_S_Click;
             // 
             // btn_R
             // 
             btn_R.Cursor = Cursors.Hand;
-            btn_R.Location = new Point(797, 902);
-            btn_R.Margin = new Padding(7, 6, 7, 6);
+            btn_R.Location = new Point(425, 440);
+            btn_R.Margin = new Padding(4, 3, 4, 3);
             btn_R.Name = "btn_R";
-            btn_R.Size = new Size(87, 81);
+            btn_R.Size = new Size(47, 38);
             btn_R.TabIndex = 11;
             btn_R.Text = "R";
             btn_R.UseVisualStyleBackColor = true;
+            btn_R.Click += btn_R_Click;
             // 
             // btn_Q
             // 
             btn_Q.Cursor = Cursors.Hand;
-            btn_Q.Location = new Point(698, 902);
-            btn_Q.Margin = new Padding(7, 6, 7, 6);
+            btn_Q.Location = new Point(372, 440);
+            btn_Q.Margin = new Padding(4, 3, 4, 3);
             btn_Q.Name = "btn_Q";
-            btn_Q.Size = new Size(87, 81);
+            btn_Q.Size = new Size(47, 38);
             btn_Q.TabIndex = 12;
             btn_Q.Text = "Q";
             btn_Q.UseVisualStyleBackColor = true;
+            btn_Q.Click += btn_Q_Click;
             // 
             // btn_P
             // 
             btn_P.Cursor = Cursors.Hand;
-            btn_P.Location = new Point(598, 902);
-            btn_P.Margin = new Padding(7, 6, 7, 6);
+            btn_P.Location = new Point(318, 440);
+            btn_P.Margin = new Padding(4, 3, 4, 3);
             btn_P.Name = "btn_P";
-            btn_P.Size = new Size(87, 81);
+            btn_P.Size = new Size(47, 38);
             btn_P.TabIndex = 13;
             btn_P.Text = "P";
             btn_P.UseVisualStyleBackColor = true;
+            btn_P.Click += btn_P_Click;
             // 
             // btn_O
             // 
             btn_O.Cursor = Cursors.Hand;
-            btn_O.Location = new Point(498, 902);
-            btn_O.Margin = new Padding(7, 6, 7, 6);
+            btn_O.Location = new Point(264, 440);
+            btn_O.Margin = new Padding(4, 3, 4, 3);
             btn_O.Name = "btn_O";
-            btn_O.Size = new Size(87, 81);
+            btn_O.Size = new Size(47, 38);
             btn_O.TabIndex = 14;
             btn_O.Text = "O";
             btn_O.UseVisualStyleBackColor = true;
+            btn_O.Click += btn_O_Click;
             // 
             // btn_N
             // 
             btn_N.Cursor = Cursors.Hand;
-            btn_N.Location = new Point(399, 902);
-            btn_N.Margin = new Padding(7, 6, 7, 6);
+            btn_N.Location = new Point(211, 440);
+            btn_N.Margin = new Padding(4, 3, 4, 3);
             btn_N.Name = "btn_N";
-            btn_N.Size = new Size(87, 81);
+            btn_N.Size = new Size(47, 38);
             btn_N.TabIndex = 15;
             btn_N.Text = "N";
             btn_N.UseVisualStyleBackColor = true;
+            btn_N.Click += btn_N_Click;
             // 
             // btn_M
             // 
             btn_M.Cursor = Cursors.Hand;
-            btn_M.Location = new Point(1590, 806);
-            btn_M.Margin = new Padding(7, 6, 7, 6);
+            btn_M.Location = new Point(852, 395);
+            btn_M.Margin = new Padding(4, 3, 4, 3);
             btn_M.Name = "btn_M";
-            btn_M.Size = new Size(87, 81);
+            btn_M.Size = new Size(47, 38);
             btn_M.TabIndex = 16;
             btn_M.Text = "M";
             btn_M.UseVisualStyleBackColor = true;
+            btn_M.Click += btn_M_Click;
             // 
             // btn_L
             // 
             btn_L.Cursor = Cursors.Hand;
-            btn_L.Location = new Point(1491, 806);
-            btn_L.Margin = new Padding(7, 6, 7, 6);
+            btn_L.Location = new Point(799, 395);
+            btn_L.Margin = new Padding(4, 3, 4, 3);
             btn_L.Name = "btn_L";
-            btn_L.Size = new Size(87, 81);
+            btn_L.Size = new Size(47, 38);
             btn_L.TabIndex = 17;
             btn_L.Text = "L";
             btn_L.UseVisualStyleBackColor = true;
+            btn_L.Click += btn_L_Click;
             // 
             // btn_K
             // 
             btn_K.Cursor = Cursors.Hand;
-            btn_K.Location = new Point(1391, 806);
-            btn_K.Margin = new Padding(7, 6, 7, 6);
+            btn_K.Location = new Point(745, 395);
+            btn_K.Margin = new Padding(4, 3, 4, 3);
             btn_K.Name = "btn_K";
-            btn_K.Size = new Size(87, 81);
+            btn_K.Size = new Size(47, 38);
             btn_K.TabIndex = 18;
             btn_K.Text = "K";
             btn_K.UseVisualStyleBackColor = true;
+            btn_K.Click += btn_K_Click;
             // 
             // btn_J
             // 
             btn_J.Cursor = Cursors.Hand;
-            btn_J.Location = new Point(1291, 806);
-            btn_J.Margin = new Padding(7, 6, 7, 6);
+            btn_J.Location = new Point(691, 395);
+            btn_J.Margin = new Padding(4, 3, 4, 3);
             btn_J.Name = "btn_J";
-            btn_J.Size = new Size(87, 81);
+            btn_J.Size = new Size(47, 38);
             btn_J.TabIndex = 19;
             btn_J.Text = "J";
             btn_J.UseVisualStyleBackColor = true;
+            btn_J.Click += btn_J_Click;
             // 
             // btn_I
             // 
             btn_I.Cursor = Cursors.Hand;
-            btn_I.Location = new Point(1192, 806);
-            btn_I.Margin = new Padding(7, 6, 7, 6);
+            btn_I.Location = new Point(638, 395);
+            btn_I.Margin = new Padding(4, 3, 4, 3);
             btn_I.Name = "btn_I";
-            btn_I.Size = new Size(87, 81);
+            btn_I.Size = new Size(47, 38);
             btn_I.TabIndex = 20;
             btn_I.Text = "I";
             btn_I.UseVisualStyleBackColor = true;
+            btn_I.Click += btn_I_Click;
             // 
             // btn_H
             // 
             btn_H.Cursor = Cursors.Hand;
-            btn_H.Location = new Point(1092, 804);
-            btn_H.Margin = new Padding(7, 6, 7, 6);
+            btn_H.Location = new Point(584, 394);
+            btn_H.Margin = new Padding(4, 3, 4, 3);
             btn_H.Name = "btn_H";
-            btn_H.Size = new Size(87, 81);
+            btn_H.Size = new Size(47, 38);
             btn_H.TabIndex = 21;
             btn_H.Text = "H";
             btn_H.UseVisualStyleBackColor = true;
+            btn_H.Click += btn_H_Click;
             // 
             // btn_G
             // 
             btn_G.Cursor = Cursors.Hand;
-            btn_G.Location = new Point(997, 804);
-            btn_G.Margin = new Padding(7, 6, 7, 6);
+            btn_G.Location = new Point(533, 394);
+            btn_G.Margin = new Padding(4, 3, 4, 3);
             btn_G.Name = "btn_G";
-            btn_G.Size = new Size(87, 81);
+            btn_G.Size = new Size(47, 38);
             btn_G.TabIndex = 22;
             btn_G.Text = "G";
             btn_G.UseVisualStyleBackColor = true;
+            btn_G.Click += btn_G_Click;
             // 
             // btn_F
             // 
             btn_F.Cursor = Cursors.Hand;
-            btn_F.Location = new Point(897, 806);
-            btn_F.Margin = new Padding(7, 6, 7, 6);
+            btn_F.Location = new Point(479, 395);
+            btn_F.Margin = new Padding(4, 3, 4, 3);
             btn_F.Name = "btn_F";
-            btn_F.Size = new Size(87, 81);
+            btn_F.Size = new Size(47, 38);
             btn_F.TabIndex = 23;
             btn_F.Text = "F";
             btn_F.UseVisualStyleBackColor = true;
+            btn_F.Click += btn_F_Click;
             // 
             // btn_E
             // 
             btn_E.Cursor = Cursors.Hand;
-            btn_E.Location = new Point(797, 806);
-            btn_E.Margin = new Padding(7, 6, 7, 6);
+            btn_E.Location = new Point(425, 395);
+            btn_E.Margin = new Padding(4, 3, 4, 3);
             btn_E.Name = "btn_E";
-            btn_E.Size = new Size(87, 81);
+            btn_E.Size = new Size(47, 38);
             btn_E.TabIndex = 24;
             btn_E.Text = "E";
             btn_E.UseVisualStyleBackColor = true;
+            btn_E.Click += btn_E_Click;
             // 
             // btn_D
             // 
             btn_D.Cursor = Cursors.Hand;
-            btn_D.Location = new Point(698, 806);
-            btn_D.Margin = new Padding(7, 6, 7, 6);
+            btn_D.Location = new Point(372, 395);
+            btn_D.Margin = new Padding(4, 3, 4, 3);
             btn_D.Name = "btn_D";
-            btn_D.Size = new Size(87, 81);
+            btn_D.Size = new Size(47, 38);
             btn_D.TabIndex = 25;
             btn_D.Text = "D";
             btn_D.UseVisualStyleBackColor = true;
+            btn_D.Click += btn_D_Click;
             // 
             // btn_newWord
             // 
             btn_newWord.Cursor = Cursors.Hand;
-            btn_newWord.Location = new Point(61, 715);
-            btn_newWord.Margin = new Padding(7, 6, 7, 6);
+            btn_newWord.Location = new Point(32, 379);
+            btn_newWord.Margin = new Padding(4, 3, 4, 3);
             btn_newWord.Name = "btn_newWord";
-            btn_newWord.Size = new Size(271, 81);
+            btn_newWord.Size = new Size(146, 38);
             btn_newWord.TabIndex = 26;
             btn_newWord.Text = "New Word";
             btn_newWord.UseVisualStyleBackColor = true;
@@ -366,23 +392,24 @@
             // btn_reset
             // 
             btn_reset.Cursor = Cursors.Hand;
-            btn_reset.Location = new Point(61, 870);
-            btn_reset.Margin = new Padding(7, 6, 7, 6);
+            btn_reset.Location = new Point(32, 452);
+            btn_reset.Margin = new Padding(4, 3, 4, 3);
             btn_reset.Name = "btn_reset";
-            btn_reset.Size = new Size(271, 81);
+            btn_reset.Size = new Size(146, 38);
             btn_reset.TabIndex = 27;
             btn_reset.Text = "Reset";
             btn_reset.UseVisualStyleBackColor = true;
+            btn_reset.Click += btn_reset_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Center;
-            pictureBox1.Location = new Point(-7, 0);
-            pictureBox1.Margin = new Padding(7, 6, 7, 6);
+            pictureBox1.Location = new Point(-4, 0);
+            pictureBox1.Margin = new Padding(4, 3, 4, 3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(487, 700);
+            pictureBox1.Size = new Size(262, 328);
             pictureBox1.TabIndex = 28;
             pictureBox1.TabStop = false;
             // 
@@ -392,10 +419,10 @@
             lbl_win.BackColor = Color.Transparent;
             lbl_win.Font = new Font("MV Boli", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbl_win.ForeColor = Color.White;
-            lbl_win.Location = new Point(1406, 45);
-            lbl_win.Margin = new Padding(7, 0, 7, 0);
+            lbl_win.Location = new Point(757, 21);
+            lbl_win.Margin = new Padding(4, 0, 4, 0);
             lbl_win.Name = "lbl_win";
-            lbl_win.Size = new Size(144, 70);
+            lbl_win.Size = new Size(76, 34);
             lbl_win.TabIndex = 29;
             lbl_win.Text = "Win:";
             // 
@@ -405,10 +432,10 @@
             lbl_number.BackColor = Color.Transparent;
             lbl_number.Font = new Font("MV Boli", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbl_number.ForeColor = Color.White;
-            lbl_number.Location = new Point(1553, 45);
-            lbl_number.Margin = new Padding(7, 0, 7, 0);
+            lbl_number.Location = new Point(836, 21);
+            lbl_number.Margin = new Padding(4, 0, 4, 0);
             lbl_number.Name = "lbl_number";
-            lbl_number.Size = new Size(68, 70);
+            lbl_number.Size = new Size(35, 34);
             lbl_number.TabIndex = 30;
             lbl_number.Text = "0";
             // 
@@ -418,10 +445,10 @@
             lbl_x.BackColor = Color.Transparent;
             lbl_x.Font = new Font("MV Boli", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_x.ForeColor = Color.White;
-            lbl_x.Location = new Point(1619, 47);
-            lbl_x.Margin = new Padding(7, 0, 7, 0);
+            lbl_x.Location = new Point(872, 22);
+            lbl_x.Margin = new Padding(4, 0, 4, 0);
             lbl_x.Name = "lbl_x";
-            lbl_x.Size = new Size(56, 70);
+            lbl_x.Size = new Size(28, 34);
             lbl_x.TabIndex = 31;
             lbl_x.Text = "x";
             // 
@@ -431,20 +458,20 @@
             lbl_used.BackColor = Color.Transparent;
             lbl_used.Font = new Font("MV Boli", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbl_used.ForeColor = Color.White;
-            lbl_used.Location = new Point(48, 986);
-            lbl_used.Margin = new Padding(7, 0, 7, 0);
+            lbl_used.Location = new Point(211, 294);
+            lbl_used.Margin = new Padding(4, 0, 4, 0);
             lbl_used.Name = "lbl_used";
-            lbl_used.Size = new Size(168, 70);
+            lbl_used.Size = new Size(88, 34);
             lbl_used.TabIndex = 32;
             lbl_used.Text = "Used:";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1733, 1107);
+            ClientSize = new Size(933, 519);
             Controls.Add(lbl_used);
             Controls.Add(lbl_x);
             Controls.Add(lbl_number);
@@ -478,9 +505,10 @@
             Controls.Add(btn_C);
             Controls.Add(btn_B);
             Controls.Add(btn_A);
-            Margin = new Padding(7, 6, 7, 6);
+            Margin = new Padding(4, 3, 4, 3);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

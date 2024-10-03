@@ -114,7 +114,7 @@ namespace Hangman
             return true;
         }
 
-        // Event handlers for letter buttons (other buttons need to be connected)
+        // Event handlers for letter buttons A-Z
         private void btn_A_Click(object sender, EventArgs e)
         {
             ProcessLetter('A');
@@ -125,12 +125,144 @@ namespace Hangman
             ProcessLetter('B');
         }
 
-        // More letter buttons need to be connected here (C-Z)
-        // To be completed: Implement event handlers for all letter buttons (C-Z)
+        private void btn_C_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('C');
+        }
 
+        private void btn_D_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('D');
+        }
+
+        private void btn_E_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('E');
+        }
+
+        private void btn_F_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('F');
+        }
+
+        private void btn_G_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('G');
+        }
+
+        private void btn_H_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('H');
+        }
+
+        private void btn_I_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('I');
+        }
+
+        private void btn_J_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('J');
+        }
+
+        private void btn_K_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('K');
+        }
+
+        private void btn_L_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('L');
+        }
+
+        private void btn_M_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('M');
+        }
+
+        private void btn_N_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('N');
+        }
+
+        private void btn_O_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('O');
+        }
+
+        private void btn_P_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('P');
+        }
+
+        private void btn_Q_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('Q');
+        }
+
+        private void btn_R_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('R');
+        }
+
+        private void btn_S_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('S');
+        }
+
+        private void btn_T_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('T');
+        }
+
+        private void btn_U_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('U');
+        }
+
+        private void btn_V_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('V');
+        }
+
+        private void btn_W_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('W');
+        }
+
+        private void btn_X_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('X');
+        }
+
+        private void btn_Y_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('Y');
+        }
+
+        private void btn_Z_Click(object sender, EventArgs e)
+        {
+            ProcessLetter('Z');
+        }
+
+        // Event handlers to choose a new word
         private void btn_newWord_Click(object sender, EventArgs e)
         {
             StartNewGame();
         }
+
+        // Event handler to reset the game
+        // TODO - Implement the event
+        private void btn_reset_Click(object sender, EventArgs e)
+        {
+            StartNewGame();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }
