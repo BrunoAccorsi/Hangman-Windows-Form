@@ -117,4 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Gallow0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forca0sf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gallow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forca1sf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gallow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forca2sf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gallow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forca3sf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gallow4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forca4sf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gallow5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forca5sf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gallow6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forca6sf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gallow7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forca7sf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

@@ -1,9 +1,11 @@
+using System.Net.Mail;
+
 namespace Hangman
 {
     public partial class Form1 : Form
     {
         private Gallow gallow;
-        private string currentWord;
+        private (string Word, string Hint) currentWord;
         private List<char> correctGuesses;
         private int wrongGuesses;
 
@@ -28,62 +30,77 @@ namespace Hangman
         // Update the word display on the form
         private void UpdateWordDisplay()
         {
-            lbl_used.Text = "Used: " + string.Join(", ", correctGuesses);
+            lbl_used.Text = "Used: " + string.Join(", ", correctGuesses).ToUpper();
             string displayWord = "";
-            foreach (char letter in currentWord)
+            foreach (char letter in currentWord.Word)
             {
-                displayWord += correctGuesses.Contains(letter) ? letter + " " : "_ ";
+                displayWord += correctGuesses.Contains(letter) ? char.ToUpper(letter) + " " : "_ ";
             }
             lbl_used.Text += "\nWord: " + displayWord;
+            lbl_hint.Text = currentWord.Hint;
         }
 
         // Update the gallows display (Needs images added)
+
         private void UpdateGallowDisplay()
         {
+            byte[]? imageData = null;
+            //Properties.Resources.Gallow0;
             switch (wrongGuesses)
             {
                 case 0:
-                    // To be completed: Add an image for gallow_0 to Resources
-                    pictureBox1.Image = Properties.Resources.gallow_0;
+                    imageData = Properties.Resources.Gallow0;
                     break;
                 case 1:
-                    // To be completed: Add an image for gallow_1 to Resources
-                    pictureBox1.Image = Properties.Resources.gallow_1;
+                    imageData = Properties.Resources.Gallow1;
                     break;
                 case 2:
-                    // To be completed: Add an image for gallow_2 to Resources
-                    pictureBox1.Image = Properties.Resources.gallow_2;
+                    imageData = Properties.Resources.Gallow2;
                     break;
                 case 3:
-                    // To be completed: Add an image for gallow_3 to Resources
-                    pictureBox1.Image = Properties.Resources.gallow_3;
+                    imageData = Properties.Resources.Gallow3;
                     break;
                 case 4:
-                    // To be completed: Add an image for gallow_4 to Resources
-                    pictureBox1.Image = Properties.Resources.gallow_4;
+                    imageData = Properties.Resources.Gallow4;
                     break;
                 case 5:
-                    // To be completed: Add an image for gallow_5 to Resources
-                    pictureBox1.Image = Properties.Resources.gallow_5;
+                    imageData = Properties.Resources.Gallow5;
                     break;
                 case 6:
-                    // To be completed: Add an image for gallow_6 to Resources
-                    pictureBox1.Image = Properties.Resources.gallow_6;
+                    imageData = Properties.Resources.Gallow6;
+                    break;
+                case 7:
+                    imageData = Properties.Resources.Gallow7;
+                    break;
+
+                default:
                     break;
             }
+
+            if (imageData != null && imageData.Length > 0)
+            {
+                using (MemoryStream ms = new MemoryStream(imageData))
+                {
+                    pictureBox2.Image = Image.FromStream(ms);
+                }
+            }
         }
+
 
         // Process the guessed letter
         private void ProcessLetter(char letter)
         {
+            letter = char.ToLower(letter);
+
             if (!correctGuesses.Contains(letter))
             {
                 correctGuesses.Add(letter);
 
-                if (!currentWord.Contains(letter))
+                if (!currentWord.Word.Contains(letter))
                 {
                     wrongGuesses++;
                 }
+                
 
                 UpdateWordDisplay();
                 UpdateGallowDisplay();
@@ -104,7 +121,7 @@ namespace Hangman
         // Check if the word is fully guessed
         private bool IsWordGuessed()
         {
-            foreach (char letter in currentWord)
+            foreach (char letter in currentWord.Word)
             {
                 if (!correctGuesses.Contains(letter))
                 {
@@ -245,6 +262,7 @@ namespace Hangman
             ProcessLetter('Z');
         }
 
+
         // Event handlers to choose a new word
         private void btn_newWord_Click(object sender, EventArgs e)
         {
@@ -263,6 +281,10 @@ namespace Hangman
 
         }
 
-       
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
