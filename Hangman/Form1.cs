@@ -8,6 +8,8 @@ namespace Hangman
         private (string Word, string Hint) currentWord;
         private List<char> correctGuesses;
         private int wrongGuesses;
+        //Add counter
+        private int winCount = 0;
 
         public Form1()
         {
@@ -26,6 +28,8 @@ namespace Hangman
             UpdateWordDisplay();
             UpdateGallowDisplay();
             RestoreButtons();
+            //Updates counter when starting
+            lbl_number.Text = $"{winCount}";
         }
 
         // Update the word display on the form
@@ -114,7 +118,7 @@ namespace Hangman
                 {
                     wrongGuesses++;
                 }
-                
+
 
                 UpdateWordDisplay();
                 UpdateGallowDisplay();
@@ -127,6 +131,9 @@ namespace Hangman
                 else if (IsWordGuessed())
                 {
                     MessageBox.Show("Congratulations! You won!");
+                    //Incrementing winCount
+                    winCount++;
+                    lbl_number.Text = $"{winCount}";
                     StartNewGame();
                 }
             }
