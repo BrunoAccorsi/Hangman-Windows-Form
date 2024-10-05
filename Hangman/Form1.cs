@@ -25,6 +25,7 @@ namespace Hangman
             lbl_used.Text = "Used: ";
             UpdateWordDisplay();
             UpdateGallowDisplay();
+            RestoreButtons();
         }
 
         // Update the word display on the form
@@ -38,6 +39,18 @@ namespace Hangman
             }
             lbl_used.Text += "\nWord: " + displayWord;
             lbl_hint.Text = currentWord.Hint;
+        }
+
+        // Restore the letter buttons to their default state
+        private void RestoreButtons()
+        {
+            foreach (Control control in Controls)
+            {
+                if (control is Button button)
+                {
+                    button.BackColor = Color.White;
+                }
+            }
         }
 
         // Update the gallows display (Needs images added)
@@ -88,8 +101,9 @@ namespace Hangman
 
 
         // Process the guessed letter
-        private void ProcessLetter(char letter)
+        private void ProcessLetter(char letter, Button sender)
         {
+            sender.BackColor = Color.DimGray;
             letter = char.ToLower(letter);
 
             if (!correctGuesses.Contains(letter))
@@ -134,134 +148,134 @@ namespace Hangman
         // Event handlers for letter buttons A-Z
         private void btn_A_Click(object sender, EventArgs e)
         {
-            ProcessLetter('A');
+            ProcessLetter('A', (Button)sender);
         }
 
         private void btn_B_Click(object sender, EventArgs e)
         {
-            ProcessLetter('B');
+            ProcessLetter('B', (Button)sender);
         }
 
         private void btn_C_Click(object sender, EventArgs e)
         {
-            ProcessLetter('C');
+            ProcessLetter('C', (Button)sender);
         }
 
         private void btn_D_Click(object sender, EventArgs e)
         {
-            ProcessLetter('D');
+            ProcessLetter('D', (Button)sender);
         }
 
         private void btn_E_Click(object sender, EventArgs e)
         {
-            ProcessLetter('E');
+            ProcessLetter('E', (Button)sender);
         }
 
+        // Repeat for letters F through Z
         private void btn_F_Click(object sender, EventArgs e)
         {
-            ProcessLetter('F');
+            ProcessLetter('F', (Button)sender);
         }
 
         private void btn_G_Click(object sender, EventArgs e)
         {
-            ProcessLetter('G');
+            ProcessLetter('G', (Button)sender);
         }
 
         private void btn_H_Click(object sender, EventArgs e)
         {
-            ProcessLetter('H');
+            ProcessLetter('H', (Button)sender);
         }
 
         private void btn_I_Click(object sender, EventArgs e)
         {
-            ProcessLetter('I');
+            ProcessLetter('I', (Button)sender);
         }
 
         private void btn_J_Click(object sender, EventArgs e)
         {
-            ProcessLetter('J');
+            ProcessLetter('J', (Button)sender);
         }
 
         private void btn_K_Click(object sender, EventArgs e)
         {
-            ProcessLetter('K');
+            ProcessLetter('K', (Button)sender);
         }
 
         private void btn_L_Click(object sender, EventArgs e)
         {
-            ProcessLetter('L');
+            ProcessLetter('L', (Button)sender);
         }
 
         private void btn_M_Click(object sender, EventArgs e)
         {
-            ProcessLetter('M');
+            ProcessLetter('M', (Button)sender);
         }
 
         private void btn_N_Click(object sender, EventArgs e)
         {
-            ProcessLetter('N');
+            ProcessLetter('N', (Button)sender);
         }
 
         private void btn_O_Click(object sender, EventArgs e)
         {
-            ProcessLetter('O');
+            ProcessLetter('O', (Button)sender);
         }
 
         private void btn_P_Click(object sender, EventArgs e)
         {
-            ProcessLetter('P');
+            ProcessLetter('P', (Button)sender);
         }
 
         private void btn_Q_Click(object sender, EventArgs e)
         {
-            ProcessLetter('Q');
+            ProcessLetter('Q', (Button)sender);
         }
 
         private void btn_R_Click(object sender, EventArgs e)
         {
-            ProcessLetter('R');
+            ProcessLetter('R', (Button)sender);
         }
 
         private void btn_S_Click(object sender, EventArgs e)
         {
-            ProcessLetter('S');
+            ProcessLetter('S', (Button)sender);
         }
 
         private void btn_T_Click(object sender, EventArgs e)
         {
-            ProcessLetter('T');
+            ProcessLetter('T', (Button)sender);
         }
 
         private void btn_U_Click(object sender, EventArgs e)
         {
-            ProcessLetter('U');
+            ProcessLetter('U', (Button)sender);
         }
 
         private void btn_V_Click(object sender, EventArgs e)
         {
-            ProcessLetter('V');
+            ProcessLetter('V', (Button)sender);
         }
 
         private void btn_W_Click(object sender, EventArgs e)
         {
-            ProcessLetter('W');
+            ProcessLetter('W', (Button)sender);
         }
 
         private void btn_X_Click(object sender, EventArgs e)
         {
-            ProcessLetter('X');
+            ProcessLetter('X', (Button)sender);
         }
 
         private void btn_Y_Click(object sender, EventArgs e)
         {
-            ProcessLetter('Y');
+            ProcessLetter('Y', (Button)sender);
         }
 
         private void btn_Z_Click(object sender, EventArgs e)
         {
-            ProcessLetter('Z');
+            ProcessLetter('Z', (Button)sender);
         }
-
 
         // Event handlers to choose a new word
         private void btn_newWord_Click(object sender, EventArgs e)
