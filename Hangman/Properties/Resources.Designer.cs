@@ -59,5 +59,85 @@ namespace Hangman.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Gallow0 {
+            get {
+                object obj = ResourceManager.GetObject("Gallow0", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Gallow1 {
+            get {
+                object obj = ResourceManager.GetObject("Gallow1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Gallow2 {
+            get {
+                object obj = ResourceManager.GetObject("Gallow2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Gallow3 {
+            get {
+                object obj = ResourceManager.GetObject("Gallow3", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Gallow4 {
+            get {
+                object obj = ResourceManager.GetObject("Gallow4", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Gallow5 {
+            get {
+                object obj = ResourceManager.GetObject("Gallow5", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Gallow6 {
+            get {
+                object obj = ResourceManager.GetObject("Gallow6", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Gallow7 {
+            get {
+                object obj = ResourceManager.GetObject("Gallow7", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }
