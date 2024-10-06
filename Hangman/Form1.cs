@@ -126,7 +126,9 @@ namespace Hangman
                 if (wrongGuesses >= 6)
                 {
                     MessageBox.Show($"You lost! The word was: {currentWord}");
+                    ResetCount();
                     StartNewGame();
+
                 }
                 else if (IsWordGuessed())
                 {
@@ -291,9 +293,16 @@ namespace Hangman
         }
 
         // Event handler to reset the game
-        // TODO - Implement the event
+       
+        private void ResetCount()
+        {
+            winCount = 0;
+            lbl_number.Text = $"{winCount}";
+        }
         private void btn_reset_Click(object sender, EventArgs e)
         {
+            ResetCount();
+            
             StartNewGame();
         }
 
