@@ -36,7 +36,22 @@
             ( "bridge","A structure built to span physical obstacles." ),
             ( "elephant","A large mammal known for its trunk and tusks." ),
             ( "rainbow","An arc of colors visible in the sky after rain." ),
-            ( "planet","A celestial body orbiting a star." )
+            ( "planet","A celestial body orbiting a star." ),
+            ( "pyramid", "Ancient Egyptian structure." ),
+            ( "jellyfish", "Ocean creature with tentacles." ),
+            ( "astronaut", "A person who travels to space." ),
+            ( "banana", "A yellow tropical fruit." ),
+            ( "oxygen", "What humans need to breathe." ),
+            ( "giraffe", "Tallest land animal with a long neck." ),
+            ( "chocolate", "Sweet treat made from cocoa." ),
+            ( "kangaroo", "An Australian animal that hops." ),
+            ( "ostrich", "The largest bird in the world that cannot fly." ),
+            ( "helicopter", "An aircraft with rotating blades." ),
+            ( "shark", "A large predatory fish found in oceans." ),
+            ( "robot", "A machine capable of carrying out tasks automatically." ),
+            ( "tornado", "A violent rotating column of air." ),
+            ( "diamond", "A precious gemstone known for its hardness and sparkle." ),
+            ( "train", "A vehicle that runs on tracks, used for transportation." )
         };
 
         public (string Word, string Hint) GetRandomWord()
